@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import useTimer from "./useTimer";
 import { formatTime } from "./formatTime";
 
@@ -10,7 +10,7 @@ function App() {
   const handleSplit = () => {
     setSplits((prevSplits) => [...prevSplits, time]);
   };
-  
+
   return (
     <div className="App container">
       <h1>Coder Timer</h1>
